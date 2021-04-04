@@ -5,3 +5,29 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__li{
+    border: 2px solid rgb(184, 184, 184);
+    border-top: 5px solid rgb(0, 230, 88);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    
+}
+
+.news__list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.news_photo{
+    width: 380px;
+    height: 300px;
+}
+
+.newsh2{
+    text-align: center;
+}
